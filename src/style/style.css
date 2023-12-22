@@ -1,0 +1,301 @@
+body{
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+
+.resultado {
+  -webkit-text-stroke: 1px black;
+  color: red;
+  font-size: 100px;
+  position: absolute;
+  margin-top: 130px;
+  margin-left: 520px;
+  font-family: "jogo da forca";
+}
+
+.LetraErrada {
+  -webkit-text-stroke: 1px black;
+  color: rgb(228, 176, 5);
+  margin-top: 100px;
+  background-color: rgba(0, 0, 0, 0.336);
+  width: 300px;
+  height: 100px;
+  position: absolute;
+  font-size: 50px;
+  display: flex;
+  font-family: "Jogo da forca";
+}
+
+.LetraErrada header {
+  font-size: 20px;
+  text-align: center;
+  margin-right: 20px;
+}
+
+.erros {
+  display: flex;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  margin-top: 540px;
+  margin-left: 10%;
+}
+
+.jogo {
+  background-image: url(fundoJogo.jpeg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 98%;
+  position: absolute;
+  width: 99%;
+}
+
+.numero {
+  flex-wrap: wrap;
+  color: white;
+  font-size: 125px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  color: rgb(126, 124, 124);
+}
+
+.palavra-secreta {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 1em;
+  margin-top: 250px;
+}
+
+.letras1 {
+  width: 30px;
+  -webkit-text-stroke: 2px black;
+  text-align: center;
+  font-size: 50px;
+  border-bottom: 5px solid rgb(155, 153, 155);
+  margin-left: 9px;
+  color: rgb(168, 111, 6);
+  font-family: "jogo da forca";
+}
+
+.letras2 {
+  width: 30px;
+  -webkit-text-stroke: 2px black;
+  text-align: center;
+  font-size: 50px;
+  border-bottom: 5px solid rgb(155, 153, 155);
+  margin-left: 9px;
+  color: rgb(168, 111, 6);
+  font-family: "jogo da forca";
+}
+
+.letras3 {
+  width: 30px;
+  -webkit-text-stroke: 2px black;
+  text-align: center;
+  font-size: 50px;
+  border-bottom: 5px solid rgb(155, 153, 155);
+  margin-left: 9px;
+  color: rgb(168, 111, 6);
+  font-family: "jogo da forca";
+}
+
+.letras4 {
+  width: 30px;
+  -webkit-text-stroke: 2px black;
+  text-align: center;
+  font-size: 50px;
+  border-bottom: 5px solid rgb(155, 153, 155);
+  margin-left: 9px;
+  color: rgb(168, 111, 6);
+  font-family: "jogo da forca";
+}
+
+.letras5 {
+  width: 30px;
+  -webkit-text-stroke: 2px black;
+  text-align: center;
+  font-size: 50px;
+  border-bottom: 5px solid rgb(155, 153, 155);
+  margin-left: 9px;
+  color: rgb(168, 111, 6);
+  font-family: "jogo da forca";
+}
+
+.letras6 {
+  width: 30px;
+  -webkit-text-stroke: 2px black;
+  text-align: center;
+  font-size: 50px;
+  border-bottom: 5px solid rgb(155, 153, 155);
+  margin-left: 9px;
+  color: rgb(168, 111, 6);
+  font-family: "jogo da forca";
+}
+
+.letras7 {
+  width: 30px;
+  -webkit-text-stroke: 2px black;
+  text-align: center;
+  font-size: 50px;
+  border-bottom: 5px solid rgb(155, 153, 155);
+  margin-left: 9px;
+  color: rgb(168, 111, 6);
+  font-family: "jogo da forca";
+}
+
+.letras8 {
+  width: 30px;
+  -webkit-text-stroke: 2px black;
+  text-align: center;
+  font-size: 50px;
+  border-bottom: 5px solid rgb(155, 153, 155);
+  margin-left: 9px;
+  color: rgb(168, 111, 6);
+  font-family: "jogo da forca";
+}
+
+.letras9 {
+  width: 30px;
+  -webkit-text-stroke: 2px black;
+  text-align: center;
+  font-size: 50px;
+  border-bottom: 5px solid rgb(155, 153, 155);
+  margin-left: 9px;
+  color: rgb(168, 111, 6);
+  font-family: "jogo da forca";
+}
+
+.letras10 {
+  width: 30px;
+  -webkit-text-stroke: 2px black;
+  text-align: center;
+  font-size: 50px;
+  border-bottom: 5px solid rgb(155, 153, 155);
+  margin-left: 9px;
+  color: rgb(168, 111, 6);
+  font-family: "jogo da forca";
+}
+
+.teclado {
+  margin-top: 60px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.teclas button {
+  -webkit-text-stroke: 1px black;
+  width: 40px;
+  height: 40px;
+  margin: 2px;
+  font-size: 25px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  box-shadow: 0px 2px 8px purple;
+  border-radius: 5px;
+  border: 2px solid orange;
+  color: rgb(201, 101, 7);
+  font-weight: 900;
+  font-family: "jogo da forca";
+  background: rgb(177, 176, 176);
+}
+
+.teclas button:hover {
+  transform: scale(1.4);
+}
+
+#categoria {
+  -webkit-text-stroke: 1px black;
+  margin-bottom: 30px;
+  color: rgb(233, 156, 14);
+  margin-top: 20px;
+  font-size: 55px;
+  font-family: "jogo da forca";
+}
+
+@font-face {
+  font-family: "jogo da forca";
+  src:
+    url("Sweet\ Scream\ Free.otf") format("opentype"),
+    url("Sweet\ Scream\ Free.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.tecla-A {
+  color: red;
+}
+
+.back {
+  margin: 5px;
+  position: absolute;
+}
+
+.buttonBack {
+  width: 150px;
+  height: 40px;
+  cursor: pointer;
+  font-family: "jogo da forca";
+  color: rgb(243, 212, 36);
+  font-size: 20px;
+  background-image: url(tecla2.png);  
+  background-size: cover;
+  border-radius: 30px;
+  border: 1px solid orange;
+}
+
+.buttonBack a {
+  color: rgb(223, 203, 31);
+  text-decoration: none
+}
+
+.reset{
+  position: absolute;
+  margin-left: 83%;
+}
+.buttonreset{
+  font-size: 20px;
+  font-family: "jogo da forca";
+  color: rgb(223, 203, 31);
+  background-image: url(tecla2.png); 
+  background-size: cover;
+  cursor: pointer;
+  margin-top: 4%;
+  width: 150px;
+  height: 40px;
+  border-radius: 30px;
+  border: 1px solid orange;
+  margin-left: 45%;
+}
+.ajustar{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  margin-top: 660px;
+  margin-left: 700px;
+}
+.ajuste{
+  font-size: 20PX;
+  border-radius: 30px;
+  color: rgb(223, 203, 31);
+  background-image: url(tecla2.png); 
+  border: 2px solid orange;
+  font-family: 'jogo da forca';
+  height: 50px;
+  background-size: cover;
+  width: 130px;
+  cursor: pointer;
+}
+.ajustar button:hover {
+  transform: scale(1.4);
+}
